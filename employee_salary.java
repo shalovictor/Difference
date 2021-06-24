@@ -1,3 +1,4 @@
+import java.util.*;
 public class employee_salary
 {
   public static void main(String args[])
@@ -7,7 +8,7 @@ public class employee_salary
     double basic,da,hra,pf,gp=0,np=0;
     String empn;
     empn=in.nextLine();
-    basic=in.nextLine();
+    basic=in.nextInt();
     da = basic*25.0/100.0;
     hra = basic*15.0/100.0;
     pf = basic * 8.33/100.0;
